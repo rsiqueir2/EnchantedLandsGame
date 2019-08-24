@@ -1,6 +1,9 @@
 Nome: EnchantedLand
+
 Personagem 1: Ethan
 Personagem 2: Emori
+
+Inimigos:
 
 Sprite: https://www.codeandweb.com/free-sprite-sheet-packer
 Assets: https://itch.io/game-assets/free
