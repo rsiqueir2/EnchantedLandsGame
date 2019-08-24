@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 57
+  controlID: 58
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 58
+  controlID: 59
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 59
+  controlID: 60
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -369,19 +369,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sunnyland/artwork/Environment/props
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 48
   m_LastFolders:
-  - Assets/Sunnyland/artwork/Environment/props
+  - Assets/Scripts
   m_LastFoldersGridSize: 48
   m_LastProjectPath: C:\Users\Arthur\Documents\GitHub\EnchantedLandsGame\EnchantedLands
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 83}
-    m_SelectedIDs: 1a3a0000
-    m_LastClickedID: 14874
+    m_SelectedIDs: 7e340000
+    m_LastClickedID: 13438
     m_ExpandedIDs: 00000000f02e00007c300000e630000046320000cc320000a4330000e6330000ea33000068350000de3700002238000014390000c639000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -437,7 +437,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000683500002e340000143000003c300000d834000074380000be310000c63600006e31000016340000422f00003834000020330000da3900006a300000a83700008c30000008360000303a0000023600009e300000662f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -530,10 +530,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 61}
-      m_SelectedIDs: e8400000
-      m_LastClickedID: 16616
-      m_ExpandedIDs: 74fbffff083e000034410000ae420000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 3c3d0000
+      m_LastClickedID: 15676
+      m_ExpandedIDs: 74fbffff083e0000583f0000b6400000c2420000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -593,9 +593,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 46.561493, y: 4.4326773, z: -85.22656}
+    m_Target: {x: 22.536615, y: 4.3772655, z: -104.12109}
     speed: 2
-    m_Value: {x: 46.561493, y: 4.4326773, z: -85.22656}
+    m_Value: {x: 22.536615, y: 4.3772655, z: -104.12109}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -620,17 +620,17 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     zGrid:
-      m_Target: 0
+      m_Target: 1
       speed: 2
-      m_Value: 0
+      m_Value: 1
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 27.628223
+    m_Target: 25.535639
     speed: 2
-    m_Value: 26.438492
+    m_Value: 24.436018
   m_Ortho:
     m_Target: 1
     speed: 2
