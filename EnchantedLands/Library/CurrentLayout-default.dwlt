@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 84
+  controlID: 103
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,8 +93,8 @@ MonoBehaviour:
     y: 0
     width: 269
     height: 364
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 85
+  controlID: 104
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 86
+  controlID: 105
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -263,8 +263,8 @@ MonoBehaviour:
     y: 0
     width: 820
     height: 364
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 22708
+  m_LastSelectedObjectID: 16200
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -331,6 +331,7 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 1107637208905025514, guid: 6c80a8e0a95a3b74d8b961bfc4e52bd8, type: 2}
+    - {fileID: 1107545073681804982, guid: 3b39b52a572dff84b9794ab3b0ecd7fa, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.5220063
       e01: 0
@@ -348,11 +349,27 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 6c80a8e0a95a3b74d8b961bfc4e52bd8,
+  m_AnimatorController: {fileID: 9100000, guid: 3b39b52a572dff84b9794ab3b0ecd7fa,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107637208905025514, guid: 6c80a8e0a95a3b74d8b961bfc4e52bd8,
+  - m_Target: {fileID: 1107545073681804982, guid: 3b39b52a572dff84b9794ab3b0ecd7fa,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -405,20 +422,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animations
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Raiane\Documents\GitHub\EnchantedLandsGame\EnchantedLands\EnchantedLands
+  m_LastProjectPath: C:\Users\Raiane\Documents\GitHub\EnchantedLandsGame\EnchantedLands
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 642f0000
-    m_LastClickedID: 12132
-    m_ExpandedIDs: 00000000ea2e000000300000503000001831000052310000463200007a3200007e32000094330000de350000a8360000c03600003e370000
+    m_SelectedIDs: f0380000
+    m_LastClickedID: 14576
+    m_ExpandedIDs: 00000000f0380000b0390000e43900005a3a0000783a0000fe3a0000243b0000283b0000c03b0000b23c0000443d0000503d0000a43d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -446,7 +463,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ea2e000000300000503000001831000052310000463200007a3200007e32000094330000de350000a8360000c03600003e370000
+    m_ExpandedIDs: 00000000f0380000b0390000e43900005a3a0000783a0000fe3a0000243b0000283b0000c03b0000b23c0000443d0000503d0000a43d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -567,9 +584,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: aef9ffff
-      m_LastClickedID: -1618
-      m_ExpandedIDs: 74fbffff183a0000363a0000563a0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6ce6ffff203f00003e3f0000623f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -629,9 +646,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.99457157, y: -1.2968944, z: -1.0839844}
+    m_Target: {x: -0.29854292, y: 0.29299733, z: -2.3320312}
     speed: 2
-    m_Value: {x: 0.99457157, y: -1.2968944, z: -1.0839844}
+    m_Value: {x: -0.29854292, y: 0.29299733, z: -2.3320312}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -664,9 +681,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 8.91539
+    m_Target: 17.072674
     speed: 2
-    m_Value: 8.91539
+    m_Value: 17.072674
   m_Ortho:
     m_Target: 1
     speed: 2
