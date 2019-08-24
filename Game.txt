@@ -1,4 +1,5 @@
 Nome: EnchantedLand
+
 Personagem 1: Ethan
 Personagem 2: Emori
 
