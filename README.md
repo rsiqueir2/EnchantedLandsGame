@@ -1,10 +1,16 @@
-# EnchantedLandsGame
-Projeto de Tópicos Especiais II
+# EnchantedLands
+Projeto de TÃ³picos Especiais II
 
 Grupo:
 
 Arthur de Andrade
 Gabriel Dorigatti Nicoletti
-Raiane de Cássia Siqueira
+Raiane de CÃ¡ssia Siqueira
 
-8º Semestre de Ciência da Computaç?o - UniFAJ
+8Âº Semestre de CiÃªncia da ComputaÃ§?o - UniFAJ
+
+Nome do game: EnchantedLands
+Personagem: Ethan
+Pacote de assets: Sunnylands e Sunnylands Forest
+
+Jogo de plataforma 2D
