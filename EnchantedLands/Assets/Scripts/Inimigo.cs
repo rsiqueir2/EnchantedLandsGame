@@ -67,7 +67,7 @@ public class Inimigo : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Ataque"))
 
         {
 
@@ -88,6 +88,17 @@ public class Inimigo : MonoBehaviour
 
         }
 
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+
+            other.gameObject.GetComponent<PlayerLife>().PerdeVida();
+
+
+        }
     }
 
 }
