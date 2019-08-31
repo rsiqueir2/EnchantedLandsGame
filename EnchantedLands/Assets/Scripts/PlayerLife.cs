@@ -8,12 +8,15 @@ public class PlayerLife : MonoBehaviour
     bool vivo = true;
     Animator anim;
 
+    public AudioClip deathSound;
+    AudioSource audioS;
+
     // Start is called before the first frame update
     void Start()
     {
 
         anim = gameObject.GetComponent<Animator>();
-
+        audioS = gameObject.GetComponent<AudioSource>();
         GameManager.gm.AtualizaHud();
 
     }
@@ -29,7 +32,8 @@ public class PlayerLife : MonoBehaviour
     {
         if (vivo)
         {
-
+            audioS.clip = deathSound;
+            audioS.Play();
             vivo = false;
             anim.SetTrigger("Morrendo");
             GameManager.gm.SetVidas(-1);
@@ -51,7 +55,7 @@ public class PlayerLife : MonoBehaviour
 
         else
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(3);
         }
     }
 }

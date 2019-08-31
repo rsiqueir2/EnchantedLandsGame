@@ -6,6 +6,7 @@ public class StarScript : MonoBehaviour
 
     Animator anim;
     CircleCollider2D col;
+    
 
     AudioSource audioS;
     // Use this for initialization
@@ -14,7 +15,7 @@ public class StarScript : MonoBehaviour
 
         anim = gameObject.GetComponent<Animator>();
         col = gameObject.GetComponent<CircleCollider2D>();
-       // audioS = gameObject.GetComponent<AudioSource>();
+       audioS = gameObject.GetComponent<AudioSource>();
 
     }
 
@@ -31,7 +32,7 @@ public class StarScript : MonoBehaviour
         // Se colidir 
         if (other.gameObject.CompareTag("Player"))
         {
-          //  audioS.Play();
+            audioS.Play();
             GameManager.gm.SetStars(1);
             col.enabled = false;
             anim.SetTrigger("Coletando");

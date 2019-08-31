@@ -13,12 +13,16 @@ public class Inimigo : MonoBehaviour
 
     public float jumpForce = 700;
 
+    AudioSource audioS;
+
+
     // Start is called before the first frame update
     void Start()
     {
 
         rb = gameObject.GetComponent<Rigidbody2D>();
         groundCheck = transform.Find("InimigoGroundCheck");
+        audioS = gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -94,7 +98,7 @@ public class Inimigo : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-
+            audioS.Play();
             other.gameObject.GetComponent<PlayerLife>().PerdeVida();
 
 

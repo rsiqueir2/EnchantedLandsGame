@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
 
         //Ganha vida ao chegar em 50
         stars += star;
-        if (stars >= 50)
+        if (stars >= 10)
         {
             stars = 0;
             vidas += 1;
