@@ -33,7 +33,7 @@ public class StarScript : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             audioS.Play();
-            GameManager.gm.SetStars(1);
+           GameManager.gm.SetStars(1);
             col.enabled = false;
             anim.SetTrigger("Coletando");
 

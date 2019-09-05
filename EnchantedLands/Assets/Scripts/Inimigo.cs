@@ -93,7 +93,7 @@ public class Inimigo : MonoBehaviour
         }
 
     }
-
+     //Se bate no inimigo perde 1 vida
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))

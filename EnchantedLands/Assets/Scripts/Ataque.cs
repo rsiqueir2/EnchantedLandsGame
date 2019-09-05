@@ -31,9 +31,12 @@ public class Ataque : MonoBehaviour
         if (other.gameObject.CompareTag("Inimigo"))
 
         {         // Desativar o Script inimigo
-            other.gameObject.GetComponent<Inimigo>().enabled = false;
+            
+            //other.gameObject.GetComponent<Inimigo>().enabled = false;
+          //  other.gameObject.GetComponent<Inimigo2>().enabled = false;
+          // other.gameObject.GetComponent<Inimigo3>().enabled = false;
 
-             //Pra cada BoxCollider ele vai executar o loop
+            //Pra cada BoxCollider ele vai executar o loop
             BoxCollider2D[] boxes = other.gameObject.GetComponents<BoxCollider2D>();
 
             foreach (BoxCollider2D box in boxes)
@@ -50,7 +53,6 @@ public class Ataque : MonoBehaviour
 
             Destroy(other.gameObject, tempoDeDestruicao);
 
-          
             forcaHorizontal = forcaHorizontalPadrao;
         }
     }
