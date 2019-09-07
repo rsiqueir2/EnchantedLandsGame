@@ -10,9 +10,9 @@ public class Inimigo : MonoBehaviour
     bool facingRigth = false;
     bool noChao = false;
     Transform groundCheck;
-
     public float jumpForce = 700;
 
+    //Sons
     AudioSource audioS;
 
 
@@ -21,6 +21,7 @@ public class Inimigo : MonoBehaviour
     {
 
         rb = gameObject.GetComponent<Rigidbody2D>();
+        //Check do chão
         groundCheck = transform.Find("InimigoGroundCheck");
         audioS = gameObject.GetComponent<AudioSource>();
     }
@@ -30,7 +31,6 @@ public class Inimigo : MonoBehaviour
     {
 
         //Verifica se está no chão, se ele estiver troca a velocidade
-    
         noChao = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
         if (!noChao)
             speed *= -1;
@@ -60,14 +60,16 @@ public class Inimigo : MonoBehaviour
     void Flip() {
 
         facingRigth = !facingRigth;
-
+        //Usando um vetor de 3 posições para mudar a escala
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
     }
 
 
-    // Para desativar as BoxColliders, se desativar as duas ok, 
+    // Para desativar as BoxColliders, se desativar as duas ok
+
+        
     private void OnTriggerEnter2D(Collider2D other)
     {
 
