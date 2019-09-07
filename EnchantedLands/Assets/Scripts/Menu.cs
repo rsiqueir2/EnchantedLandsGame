@@ -1,29 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
+using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
-    {
-        
+    { 
+        // Checa se a tecla "espaço" foi apertada
+        if (Input.GetKey(KeyCode.Space) == true)
+        { 
+            // Se sim, carrega a cena "Level01"
+            SceneManager.LoadScene("Level01", LoadSceneMode.Single);
+        }
     }
 
-   public void CarregarFase(int cena)
-
-    {
-
-        SceneManager.LoadScene(cena);
-
-    }
+   
 
     public void Sair()
     {
@@ -32,3 +29,4 @@ public class Menu : MonoBehaviour
 
     }
 }
+
