@@ -1,10 +1,11 @@
 # EnchantedLandsGame
-Projeto de Tópicos Especiais II
+Projeto de TÃ³picos Especiais II
+ProfÂº CÃ©sar
 
 Grupo:
 
 Arthur de Andrade
 Gabriel Dorigatti Nicoletti
-Raiane de Cássia Siqueira
+Raiane de CÃ¡ssia Siqueira
 
-8º Semestre de Ciência da Computaç?o - UniFAJ
+8Âº Semestre de CiÃªncia da ComputaÃ§ao - UniFAJ
